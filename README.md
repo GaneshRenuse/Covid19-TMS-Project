@@ -27,21 +27,21 @@ A web-based **COVID-19 Testing Management System** built using PHP and MySQL to 
 ### 2️⃣ Installation Steps
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/covid19-testing-management.git
+   git clone https://github.com/GaneshRenuse/Covid19-TMS-Project.git
    ```
 2. Move the project folder to your server's root directory:
    - `htdocs` for XAMPP  
    - `www` for Wamp  
 3. Import the database:
    - Open **phpMyAdmin**.
-   - Create a new database (e.g., `covid_test_db`).
-   - Import the provided SQL file (`covid_test_db.sql`).
+   - Create a new database (e.g., `covidtmsdb`).
+   - Import the provided SQL file (`covidtmsdb.sql`).
 4. Configure the database connection in `config.php`:
    ```php
    $host = "localhost";
    $user = "root";
    $password = "";
-   $database = "covid_test_db";
+   $database = "covidtmsdb";
    ```
 5. Start the server and access the system in your browser:
    ```
@@ -49,14 +49,12 @@ A web-based **COVID-19 Testing Management System** built using PHP and MySQL to 
    ```
 
 ## 📸 Screenshots  
-(Add screenshots here)
 
-## 🔒 Login Credentials (Sample)
+
+## 🔒 Login Credentials (For Testing)
 | Role  | Username | Password |
 |--------|------------|------------|
-| Admin | admin | admin123 |
-| Lab Technician | labuser | labpass |
-| Patient | patient | patientpass |
+| Admin | admin | Test@123 |
 
 ## 🏗 Future Enhancements
 - Integration of **email/SMS notifications** for test results.
@@ -70,5 +68,3 @@ Contributions are welcome! Fork the repo, create a branch, and submit a pull req
 This project is licensed under the **MIT License**.
 
 ---
-
-🚀 **Feel free to enhance and modify as needed!** Let me know if you want any changes. 😊  
